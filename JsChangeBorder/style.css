@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 
 }
 div{
@@ -14,4 +14,28 @@ div{
     width: 200px;
     border: 1px black solid ;
     transition: all 0.4s ease;
+}
+button{
+    border: none;
+    height:50px;
+    width: 100px;
+    background-color: rgb(0, 115, 255);
+    border-radius: 8px;
+    color: #FFFF;
+    padding: 120px white;
+    transition: all 0.4s ease;
+}
+button:is(:hover,:focus){
+    outline-offset: 3px;
+    
+    opacity: 0.8;
+}
+#button{
+    height: 60px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px white solid ;
+    border-radius: 8px;
 }
