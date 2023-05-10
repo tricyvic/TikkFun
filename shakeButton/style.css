@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+
+}
+body{
+    background-color: rgb(44, 43, 43);
+    color: aliceblue;
+}
+h1,button{
+    font-size: 62px;
+}
+
+.button-div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2pc;
+}
+button{
+    border: none;
+    border-radius: 2pc;
+    padding: 25px;
+    background-color: green;
+}
+button:active{
+    border-style: inset
+}
+button:disabled{
+    background-color: gray;
+}
+button:disabled:hover{
+    animation: shake 200ms 2;
+}
+@keyframes shake{
+    0%,100%{translate:0;}
+    25% {translate:0.125rem;}
+    75% {translate:-0.125rem;}
+}
