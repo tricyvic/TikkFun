@@ -8,10 +8,16 @@ body{
     background-color: rgb(44, 43, 43);
     color: aliceblue;
 }
-h1,button{
+h1{
+    padding-top: 5pc;
+}
+a{
+  text-decoration: none;
+    
+}
+h1,button,a{
     font-size: 62px;
 }
-
 .button-div{
     height: 100vh;
     display: flex;
