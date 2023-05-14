@@ -12,6 +12,9 @@ body{
 p{
     animation: beat .5s infinite alternate linear;
 }
+a{
+    font-size: 5pc;
+}
 @keyframes beat{
     from {transform:scale(.7) ;}
     to {transform:scale(1)}
