@@ -10,11 +10,10 @@ body{
     background-color: skyblue;
 }
 p{
-    animation: beat 2s infinite;
+    animation: beat .5s infinite alternate linear;
 }
 @keyframes beat{
-    0% {scale: 1;}
-    50% {scale: 0.5;color: rgb(255, 251, 0);}
-    100%{scale: 1;}
+    from {transform:scale(.7) ;}
+    to {transform:scale(1)}
 
 }
