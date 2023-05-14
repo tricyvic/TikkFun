@@ -1,0 +1,11 @@
+*{
+    font-size: 15pc;
+    --color:red;
+}
+body{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: skyblue;
+}
