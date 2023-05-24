@@ -1,2 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
 
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "poppins";
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #111;
+}
+
+h1{
+    color: #fff;
+}
+
+h1 span{
+    color: #f7114e;
+}
+.dropdown button{
+    font-size: 1rem;
+    border: none;
+    background-color: #f7114e;
+    border-radius: 0.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 1rem;
+    color: #fff;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
