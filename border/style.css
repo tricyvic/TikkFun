@@ -7,11 +7,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 3pc;
+}
+h1{
+    font-size: 5pc ;
+}
+p{
+    font-size: 3pc;
 }
 .section{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 12px;
+    gap: 5pc;
 }
 .section div{
     display: flex;
@@ -20,6 +28,7 @@ body{
     background-color: #000000f9;
     height: 12pc;
     width: 12pc;
+    transition:1s ease;
 }
 .section div .circle{
     background-color: red;
@@ -28,22 +37,24 @@ body{
     border-radius: 50%;
 }
 
-.sectors-2{
-    border-radius: 10px;
+.sectors-2:active{
+    border-radius: 40px;
+    
 }
-.sectors-3{
+.sectors-3:active{
     border-radius: 50%;
+    
 }
-.sectors-4{
+.sectors-4:active{
     border-radius: 50% 0;
 }
-.sectors-5{
+.sectors-5:active{
     border-radius: 0 0 50% 50%;
 }
-.sectors-6{
+.sectors-6:active{
     border-radius:50% 50% 0 0 ;
 }
-.sectors-7{
+.sectors-7:active{
     border-radius: 50% 20% / 10% 40%;
 }
 
