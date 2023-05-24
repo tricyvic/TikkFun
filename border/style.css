@@ -27,3 +27,23 @@ body{
     width: 4pc;
     border-radius: 50%;
 }
+
+.sectors-2{
+    border-radius: 10px;
+}
+.sectors-3{
+    border-radius: 50%;
+}
+.sectors-4{
+    border-radius: 50% 0;
+}
+.sectors-5{
+    border-radius: 0 0 50% 50%;
+}
+.sectors-6{
+    border-radius:50% 50% 0 0 ;
+}
+.sectors-7{
+    border-radius: 50% 20% / 10% 40%;
+}
+
