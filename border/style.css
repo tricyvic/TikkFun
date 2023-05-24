@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+}
+.section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000f9;
+    height: 12pc;
+    width: 12pc;
+}
+.section div .circle{
+    background-color: red;
+    height: 4pc;
+    width: 4pc;
+    border-radius: 50%;
+}
